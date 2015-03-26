@@ -28,6 +28,7 @@ typedef void(^HFImageEditorDoneCallback)(UIImage *image, BOOL canceled);
 
 @property(nonatomic,readonly) CGRect cropBoundsInSourceImage;
 
+- (void)done;
 - (void)reset:(BOOL)animated;
 
 @end
